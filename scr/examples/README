@@ -1,7 +1,7 @@
-features:addurl mvn:org.apache.karaf.scr/org.apache.karaf.scr.feature/2.2.6-SNAPSHOT/xml/features
+features:addurl mvn:org.apache.karaf.scr/org.apache.karaf.scr.feature/3.0.0-SNAPSHOT/xml/features
 features:install scr-webconsole
-install -s mvn:org.apache.karaf.scr/org.apache.karaf.scr.examples/2.2.6-SNAPSHOT
-dev:watch mvn:org.apache.karaf.scr/org.apache.karaf.scr.examples/2.2.6-SNAPSHOT
+install -s mvn:org.apache.karaf.scr/org.apache.karaf.scr.examples/3.0.0-SNAPSHOT
+dev:watch mvn:org.apache.karaf.scr/org.apache.karaf.scr.examples/3.0.0-SNAPSHOT
 
 
 config:edit ManagedComponent
